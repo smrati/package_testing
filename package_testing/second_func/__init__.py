@@ -1,0 +1,1 @@
+from .second_func import echo_second
