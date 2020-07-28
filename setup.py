@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="package_testing",
@@ -8,5 +8,5 @@ setup(
     author="smrati",
     author_email="smrati.katiyar@abcd.com",
     license="MIT",
-    packages=["package_testing", "package_testing.other_func"],
+    packages=find_packages(),
     zip_safe=False)
