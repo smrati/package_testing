@@ -8,5 +8,5 @@ setup(
     author="smrati",
     author_email="smrati.katiyar@abcd.com",
     license="MIT",
-    packages=["package_testing"],
+    packages=["package_testing", "package_testing.other_func"],
     zip_safe=False)
